@@ -1,5 +1,5 @@
-LUAINCLUDE=-I/usr/local/include
-LUALIB=-L/usr/local/bin -llua53
+LUAINCLUDE ?=-I/usr/local/include
+LUALIB ?=-L/usr/local/bin -llua53
 SOCKETLIB=-lws2_32
 
 .PHONY: all win linux
